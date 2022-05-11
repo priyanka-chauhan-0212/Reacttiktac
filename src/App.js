@@ -124,7 +124,7 @@ export default function App() {
       <div>
         {(winner !== null || winner === "tie") && (
           <>
-            <p>Winner: {winner}</p>
+            <p style={{ color: "red" }}>Winner: {winner}</p>
             <button onClick={() => resetButtons()}>Reset</button>
           </>
         )}
